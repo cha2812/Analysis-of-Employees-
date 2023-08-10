@@ -10,6 +10,9 @@ To solve and provide solutions to the following problems and questions.
 2. Select the employee table where the employee's first name has both 'a' and 'e' in them.
 3. Subset the employee table to have the employees with a date of birth above 1990.
 4. Subset the salary table to show salaries less than 1 million and sort it in ascending order.
+5. Total number of employees in the employee table?
+6. Top 5 cities with the highest number of employees, filter the result to show cities with more than 15 employees.
+7. The most used Pincode by the employee. Most used pincode by employees.
 
 
 ## Skills Demonstrated
@@ -19,6 +22,7 @@ To solve and provide solutions to the following problems and questions.
 4. Insert Into
 5. Values
 6. Where clause
+7. Count(*) 
 
 ## Data Analysis
 I had to create a database in pgadmin4. I made use of PostgreSQL for my SQL task.
@@ -55,7 +59,7 @@ To upload the data into the table for PostgreSQL,
 
 ![](pic5.png)
 
-- To get the employee table and show the data where the city is Mumbai and Delhi..
+- To get the employee table and show the data where the city is Mumbai and Delhi.
 
 ![](pic6.png)
 
@@ -71,6 +75,18 @@ To upload the data into the table for PostgreSQL,
 
 ![](pic9.png)
 
+- Total number of employees in the employee table
+
+![](pic10.png)
+
+- Top 5 cities with the highest number of employees, filter the result to show cities with more than 15 employees.
+
+![](pic11.png)
+
+- The most used pincode by employees.
+
+![](pic12.png)
+
 
 ## Conclusion
 Getting a little hang of SQL so I am beginning to play around with it, had to understand the basic or starting point of working with SQL which is the 
@@ -79,3 +95,6 @@ Getting a little hang of SQL so I am beginning to play around with it, had to un
 - We have 7 employees who earn below the $1 million mark
 - We have 14 employees who were born after 1990.
 - We have 64 employees located where the city is Mumbai and Delhi.
+- We have a total number of 100 employees in the company
+- We have 3 cities with the highest number of employees above 15, they are Mumbai with 44, Delhi with 20 and Pune with 16.
+- The pincode with the most usage with the employees is 410210.
