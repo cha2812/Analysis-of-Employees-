@@ -44,25 +44,33 @@ To upload the data into the table for PostgreSQL,
 ![](pic2.png)
 
 - To check if the employee data has been uploaded into the table, SELECT * FROM employee and it returns the table completely full with data.
+
 ![](pic3.png)
 
 - Type SELECT * FROM salary to get the salary table full of data.
+
 ![](pic4.png)
 
 - Type SELECT * FROM department to get the department table full of data.
+
 ![](pic5.png)
 
 - To get the employee table and show the data where the city is Mumbai and Delhi..
+
 ![](pic6.png)
 
 - To get the employee table where the employee's first name has both 'a' and 'e' in them.
+
 ![](pic7.png)
 
 - To Subset the employee table to have employees with a date of birth above 1990.
+
 ![](pic8.png)
   
 - To Subset the salary table to show salaries less than 1 million and sort it in ascending order.
+
 ![](pic9.png)
+
 
 ## Conclusion
 Getting a little hang of SQL so I am beginning to play around with it, had to understand the basic or starting point of working with SQL which is the 
