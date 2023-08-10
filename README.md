@@ -69,11 +69,11 @@ To upload the data into the table for PostgreSQL,
 
 - To Subset the employee table to have employees with a date of birth above 1990.
 
-![](pic8.png)
+![](pic9.png)
   
 - To Subset the salary table to show salaries less than 1 million and sort it in ascending order.
 
-![](pic9.png)
+![](pic8.png)
 
 - Total number of employees in the employee table
 
