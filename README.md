@@ -65,7 +65,7 @@ To upload the data into the table for PostgreSQL,
 
 - To get the employee table where the employee's first name has both 'a' and 'e' in them.
 
-![](pic7.png)
+![](picture7.png)
 
 - To Subset the employee table to have employees with a date of birth above 1990.
 
