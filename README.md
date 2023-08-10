@@ -7,8 +7,8 @@ This task of data analysis was done using SQL. In this analysis, SQL was used to
 ## Problem Statement
 To solve and provide solutions to the following problems and questions.
 1. Select the employee table and show the data where the city is Mumbai and Delhi
-2. Select the employee table where the employee first name have both 'a' and 'e' in them.
-3. Subset the employee table to have employee with the date of birth above 1990.
+2. Select the employee table where the employee's first name has both 'a' and 'e' in them.
+3. Subset the employee table to have the employees with a date of birth above 1990.
 4. Subset the salary table to show salaries less than 1 million and sort it in ascending order.
 
 
@@ -46,11 +46,28 @@ To upload the data into the table for PostgreSQL,
 - To check if the employee data has been uploaded into the table, SELECT * FROM employee and it returns the table completely full with data.
 ![](pic3.png)
 
-- Type SELECT * FROM salary to get the table full of data.
+- Type SELECT * FROM salary to get the salary table full of data.
 ![](pic4.png)
 
+- Type SELECT * FROM department to get the department table full of data.
+![](pic5.png)
 
+- To get the employee table and show the data where the city is Mumbai and Delhi..
+![](pic6.png)
 
+- To get the employee table where the employee's first name has both 'a' and 'e' in them.
+![](pic7.png)
 
+- To Subset the employee table to have employees with a date of birth above 1990.
+![](pic8.png)
+  
+- To Subset the salary table to show salaries less than 1 million and sort it in ascending order.
+![](pic9.png)
 
-- 
+## Conclusion
+Getting a little hang of SQL so I am beginning to play around with it, had to understand the basic or starting point of working with SQL which is the 
+- SELECT, FROM, INSERT INTO, VALUES, ALTER TABLE, ALTER COLUMNS. 
+- Knowing the data type (integer, character, character varying, identity/serial, date, numeric, primary key, foreign key.
+- We have 7 employees who earn below the $1 million mark
+- We have 14 employees who were born after 1990.
+- We have 64 employees located where the city is Mumbai and Delhi.
