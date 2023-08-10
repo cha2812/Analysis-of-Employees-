@@ -20,5 +20,37 @@ To solve and provide solutions to the following problems and questions.
 5. Values
 6. Where clause
 
+## Data Analysis
+I had to create a database in pgadmin4. I made use of PostgreSQL for my SQL task.
+Firstly, Since we were provided with the data in a CSV file, we had to upload the data into the table created.
+- Click on the database created
+- Then click on Query tool
+- Create a table for employee
+- Then type the following code in your query tool
+
+To upload the data into the table for PostgreSQL, 
+- Right-click on table
+- Select Import/Export Data
+- Select import
+- choose the location of your csv file on your system
+- Click on columns and make sure all columns match the columns on data on csv file
+- Then select header is turned on
+- Then press ok.
+
+![](pic1.png)
+
+- To upload the salary data into the table, you have to change the column data type from numeric to VARCHAR
+
+![](pic2.png)
+
+- To check if the employee data has been uploaded into the table, SELECT * FROM employee and it returns the table completely full with data.
+![](pic3.png)
+
+- Type SELECT * FROM salary to get the table full of data.
+![](pic4.png)
 
 
+
+
+
+- 
